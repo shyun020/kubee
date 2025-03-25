@@ -11,6 +11,3 @@ COPY app.py /app/app.py
 
 # 작업 디렉토리 설정
 WORKDIR /app
-
-# 컨테이너 실행 시 실행할 명령
-CMD ["python3", "app.py"]
